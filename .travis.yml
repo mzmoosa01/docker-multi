@@ -20,5 +20,5 @@ after_success:
   #Push images to docker hub
   - docker push zubairmoosa/multi-client
   - docker push zubairmoosa/multi-nginx
-  - docker push -t zubairmoosa/multi-server
-  - docker push -t zubairmoosa/multi-worker
+  - docker push zubairmoosa/multi-server
+  - docker push zubairmoosa/multi-worker
